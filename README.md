@@ -9,7 +9,7 @@ This project is aimed to understand how the K-Nearest Neighbors (KNN) algorithm 
 * **Python libraries** - Numpy, Pandas, Matplotlib, Scikit Learn, Statistics
 
 ## The algorithm
-The KNN classifier algorithm works based on a simple logic: to classificate an element, we can look at the classification of its neighbors. The smaller the distance, the greater the similarities. So, to classificate new data, we use the data that is already classified, calculating the distance between the new and the known information and using the classification of the K nearest data to determine the class of the new data. 
+The KNN classifier algorithm works based on a simple logic: to classify an element, we can look at the classification of its neighbors. The smaller the distance, the greater the similarities. So, to classify new data, we use the data that is already classified, calculating the distance between the new and the known information and using the classification of the K nearest data to determine the class of the new data. 
 
 To do so, a lot of distance metrics can be used, the most common are Manhattan Distance and Euclidean Distance.
 The generalized formula of Euclidean Distance is given as:
