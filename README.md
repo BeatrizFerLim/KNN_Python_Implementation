@@ -1,7 +1,7 @@
 # KNN_Python_Implementation
 
 ## Description
-This project is aimed to understand how the K-Nearest Neighboors (KNN) algorithm works on classification models. To achieve this, the algorithm was implemented following the rules the built-in metric does, once we have a trained model.
+This project is aimed to understand how the K-Nearest Neighbors (KNN) algorithm works on classification models. To achieve this, the algorithm was implemented following the rules the built-in metric does, once we have a trained model.
 
 ## Used Technologies
 * **Python** - The source code is written in Python
@@ -9,7 +9,7 @@ This project is aimed to understand how the K-Nearest Neighboors (KNN) algorithm
 * **Python libraries** - Numpy, Pandas, Matplotlib, Scikit Learn, Statistics
 
 ## The algorithm
-The KNN classifier algorithm works based on a simple logic: to classificate an element, we can look at the classification of its neighboors. The smaller the distance, the greater the similarities. So, to classificate new data, we use the data that is already classified, calculating the distance between the new and the known information and using the classification of the K nearest data to determine the class of the new data. 
+The KNN classifier algorithm works based on a simple logic: to classificate an element, we can look at the classification of its neighbors. The smaller the distance, the greater the similarities. So, to classificate new data, we use the data that is already classified, calculating the distance between the new and the known information and using the classification of the K nearest data to determine the class of the new data. 
 
 To do so, a lot of distance metrics can be used, the most common are Manhattan Distance and Euclidean Distance.
 The generalized formula of Euclidean Distance is given as:
@@ -29,7 +29,7 @@ After calculating the distance between the points, the k first ones are selected
 ## Steps followed
 To build this project, a few steps were followed:
 1. The functions to calculate the Euclidean and Manhattan were defined
-2. Then, the fuction to perform the calculation of the k-nearest neighboors was written, where:
+2. Then, the fuction to perform the calculation of the k-nearest neighbors was written, where:
     - The distance functions were called
     - The distances and classifications were organized
     - The k smaller distances were selected
